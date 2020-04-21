@@ -1,20 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="author" content="Desire Kaleba"/>
-    <meta name="description" content="WayFarer an online bus booking system"/>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Desire Kaleba" />
+    <meta name="description" content="WayFarer an online bus booking system" />
     <meta name="keywords" content="WayFarer, way_farer, way-farer, 
     Online booking system, 
     online bus reservation system, 
-    online bus booking system"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    
-    <link rel="stylesheet" href="./main.css"/>
-    
+    online bus booking system" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./main.css" />
+
     <title>WayFarer</title>
 </head>
+
 <body>
+    <div class="main-wrapper">
+        <header class="black clr-white">
+            <h1>Way<span class="clr-primary">Farer</span></h1>
+            <div class="links">
+                <a href="#">Sign in</a>
+                <a href="#">Sign up</a>
+            </div>
+        </header>
+        <div id="showcase">
+            <div>
+                <h2>
+                    Welcome to WayFarer,
+                    your trusted online
+                    bus booking system.
+                </h2>
+                <a href="#">Sign up here</a>
+            </div>
+            <div>
+                <img src="./img/bus-3-modified.png" alt="">
+            </div>
+        </div>
+        <div id="">
+            <h2>Today's Trips</h2>
+            <div id="trips">
+                No trip Today
+            </div>
+        </div>
+        <div id="awards">
+            <div class="award">
+                <img src="" alt="" />
+                <h4>1200</h4>
+                <h4>Annual Trips</h4>
+            </div>
+            <div class="award">
+                <img src="" alt="" />
+                <h4>450</h4>
+                <h4>Satisfied</h4>
+            </div>
+            <div class="award">
+                <img src="" alt="" />
+                <h4>4</h4>
+                <h4>awards</h4>
+            </div>
+            <div class="award">
+                <img src="" alt="" />
+                <h4>23</h4>
+                <h4>Contributors</h4>
+            </div>
+        </div>
+        <div id="email-subscription-form">
+            <form name="email-list-form" method="POST">
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name"/>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email"/>
+                </div>
+                <button type="submit" name="submit">Submit</button>
+            </form>
+            <h3>We promise to keep your email safe</h3>
+        </div>
+        <footer class="footer black">
+            <div class="social">
+                <img class="social-1 wtp" src="" alt=""/>
+                <img class="social-2 inst" src="" alt=""/>
+                <img class="social-3 twt" src="" alt=""/>
+                <img class="social-4 src="" alt=""/>
+            </div>
+            <div>
+                <p>&copy; 2020 way<span>Farer</span></p>
+                <div>
+                    <a href="#">Terms of services</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+        </footer> 
+    </div>
+
     <script src="./main.js"></script>
 </body>
+
 </html>
