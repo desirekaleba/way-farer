@@ -61,6 +61,20 @@ a:hover {
     color: var(--color-primary);
 }
 
+/* inputs, selects, and textarea */
+input, select, textarea {
+    width: 100%;
+    display: inline-flex;
+    padding: .2rem 1.2rem;
+    border: 1px solid #ccc;
+}
+input[type='submit'] {
+    width: 100%;
+    border: none;
+    background-color: var(--color-primary);
+    color: var(--white);
+    text-align: center;
+}
 /* wrapper (container) */
 .wrapper {
     padding: 0 4rem;
