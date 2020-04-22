@@ -96,7 +96,8 @@ input[type='password'],
 input[type='tel'],
 input[type='range'], 
 input[type='search'],
-input[type='url'] select, textarea {
+input[type='date'],
+input[type='url'], select, textarea {
     width: 100%;
     display: inline-flex;
     display: -webkit-inline-flex;
