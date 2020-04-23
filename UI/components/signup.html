@@ -26,8 +26,8 @@
         </div>
     </header>
     <main>
-        <div class="wrapper mt-3">
-            <div class="wrapper bg-black clr-white pt-1 pb-3">
+        <div class="wrapper mt-2">
+            <div class="wrapper bg-black clr-white pt-1 pb-2">
                 <h2 class="fw-4">Create an Account</h2>
                 <form action="" method="POST">
                     <div class="flex-row no-wrap j-around">
@@ -59,7 +59,8 @@
                             <div>
                                 <div>
                                     <label for="profile-picture">Choose a profile Picture</label>
-                                    <input class="button bg-secondary" type="file" name="profile-picture" id="profile-picture" />
+                                    <input class="button bg-secondary" type="file" name="profile-picture"
+                                        id="profile-picture" />
                                     <img id="profile-picture-bitmap" src="../img/profile-picture-default-male.png"
                                         alt="" width="100">
                                 </div>
@@ -85,17 +86,42 @@
                                 <input type="password" name="password" id="password" />
                             </div>
                             <div>
-                                <label for="confirm-password">Password</label>
+                                <label for="confirm-password">Confirm Password</label>
                                 <input type="password" name="confirm-password" id="confirm-password" />
+                            </div>
+                            <div>
+                                <label for="type">I want to</label><br>
+                                <input id="admin" type="radio" name="type" value="admin" />
+                                <label for="admin">Book a bus</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <input id="admin" type="radio" name="type" value="admin" />
+                                <label for="client">Register a trip/trips</label>
+
                             </div>
                         </div>
                     </div>
-                    <input class="button bg-primary clr-white mt-2" type="submit" value="Register" name="signup"
-                        id="login" />
+                    <input class="button bg-primary clr-white mt-1 mb-1" type="submit" value="Register" name="signup"
+                        id="signup" />
                 </form>
             </div>
         </div>
     </main>
+    <footer class="wrapper black clr-white mt-3 pt-1 pb-2">
+        <div class="social mb-1">
+            <a href="#"><img class="social-m wtp mr-1" src="../img/awesome-whatsapp.png" alt="Whatsapp" /></a>
+            <a href="#"><img class="social-m inst mr-1" src="../img/awesome-instagram.png" alt="Instagram" /></a>
+            <a href="#"><img class="social-m twt mr-1" src="../img/awesome-twitter.png" alt="Twitter" /></a>
+            <a href="#"><img class="social-m fcbk" src="../img/awesome-facebook.png" alt="Facebook" /></a>
+        </div>
+        <div class="bda-t">
+            <div class="flex-row j-btwn pt-1">
+                <p>&copy; 2020 way<span class="clr-primary">Farer</span></p>
+                <div class="">
+                    <a href="#">Terms of services</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
