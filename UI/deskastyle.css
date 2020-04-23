@@ -125,6 +125,12 @@ input[type='submit'] {
 .wrapper {
     padding: 0 4rem;
 }
+.wrapper-md {
+    padding: 0 2rem;
+}
+.wrapper-sm {
+    padding: 0 1rem;
+}
 
 /* Flex display */
 /* row */
@@ -147,6 +153,37 @@ input[type='submit'] {
     -ms-flex-direction: row;
     width: 100%;
     overflow-x: hidden;
+}
+/* column width for a flex-row */
+.flex-row-col-1 {
+    width: 10%;
+}
+.flex-row-col-2 {
+    width: 20%;
+}
+.flex-row-col-3 {
+    width: 30%;
+}
+.flex-row-col-4 {
+    width: 40%;
+}
+.flex-row-col-5 {
+    width: 50%;
+}
+.flex-row-col-6 {
+    width: 60%;
+}
+.flex-row-col-7 {
+    width: 70%;
+}
+.flex-row-col-8 {
+    width: 80%;
+}
+.flex-row-col-9 {
+    width: 90%;
+}
+.flex-row-col-10 {
+    width: 100%;
 }
 /* column */
 .flex-col {
