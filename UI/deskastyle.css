@@ -105,31 +105,40 @@ a:hover {
     
 }
 .accordion-item {
-    padding: 0 0 1rem 0;
+    position: relative;
 }
 .accordion-title{
     text-indent: 1rem;
     background-color: var(--color-secondary);
     padding: 0 3px 0 0;
     border-top: 5px solid var(--color-primary);
-}
-.accordion-title::after {
-    content: '+';
-    float: right;
+    position: relative;
     cursor: pointer;
 }
+.accordion-title-active::before {
+    content: '';
+    position: absolute;
+    top: .7rem;
+    left: 0.2rem;
+    bottom: -0.5rem;
+    width: 1rem;
+    height: 1rem;
+    background-color: var(--color-secondary);
+    display: block;
+    transform: rotate(45deg);
+}
 .accordion-body {
-    text-indent: 2rem;
     display: none;
 }
 .accordion-body.active {
-    transition: all 2s ease-in-out;
-    text-indent: 2rem;
-    display: inline-flex;
+    color: white;
+    display: block;
+    transition: all 1s ease-in-out;
 }
 .accordion-body button {
     border: none;
-    background-color: white;
+    width: 100%;
+    font-weight: 600;
     cursor: pointer;
 }
 /* inputs, selects, and textarea */

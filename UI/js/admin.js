@@ -12,10 +12,11 @@ Array.from(accordionItems).forEach(accordionItem => {
         
     // }
     for (let i = 0; i < Array.from(accordionItem.children).length; i++) {
+
         let title = Array.from(accordionItem.children[i].classList).includes('accordion-title') ? accordionItem.children[i] : '';
         if (title != '') {
             title.addEventListener('click', event => {
-                console.log(title.textContent);
+                title.classList.toggle('accordion-title-active');
                 accordionItem.children[i+1].classList.toggle('active');
             });
         }
