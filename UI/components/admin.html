@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="author" content="Desire Kaleba" />
@@ -10,14 +11,60 @@
     online bus booking system" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="../deskastyle.css"/>
-    <link rel="stylesheet" href="../main.css"/>
+    <link rel="stylesheet" href="../deskastyle.css" />
+    <link rel="stylesheet" href="../main.css" />
 
     <title>WayFarer-Admin</title>
 </head>
-<body>
-    <main style="background-color: silver;">
 
+<body style="background-color: silver;">
+    <main class="flex-row no-wrap j-btwn wrapper-md">
+        <div class="white grow-1 wrapper-sm pt-1">
+            <div class="user-info text-center mb-2">
+                <img src="../img/profile-picture-default-male.png" alt="" width="100" />
+                <h4>FirstName <span class="clr-primary">LastName</span></h4>
+                <h6>Admin</h6>
+            </div>
+            <div class="accordion bda-t pt-1 pb-1">
+                <div class="accordion-item">
+                    <h5 class="accordion-title">Trips</h5>
+                    <div class="accordion-body">
+                        <button>Create trip</button>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h5 class="accordion-title">Bookings</h5>
+                    <div class="accordion-body">
+                        <button>All Bookings</button>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h5 class="accordion-title">Settings</h5>
+                    <div class="accordion-body">
+                        <button>Change profile</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grow-2 wrapper-sm">
+            <div class="flex-row j-btwn">
+                <div class="white wrapper-sm">25 Trips</div>
+                <div class="white wrapper-sm">345 bookings</div>
+            </div>
+            <div class="">
+                <h3>Trips</h3>
+            </div>
+        </div>
+
+        <div class="grow-2 white wrapper-sm">
+            <div>
+                <span>Seating capacity: </span>
+                <span>67</span>
+            </div>
+        </div>
     </main>
+    <script src="../js/admin.js"></script>
 </body>
+
 </html>
