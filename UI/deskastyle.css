@@ -547,6 +547,20 @@ input[type="submit"] {
     opacity: 0.9;
 }
 
+/* Font-size */
+.fz-1 {
+    font-size: 1rem;
+}
+.fz-2 {
+    font-size: 2rem;
+}
+.fz-3 {
+    font-size: 3rem;
+}
+.fz-4 {
+    font-size: 4rem;
+}
+
 /* Viewport */
 /* height */
 .vh-1 {
