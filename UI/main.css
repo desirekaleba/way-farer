@@ -3,9 +3,22 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+
 }
 
 .award {
     border: 1px solid black;
     padding: 1rem;
+}
+
+.award img {
+    max-width: 3rem;
+}
+
+.award>h3 {
+    font-size: 2rem;
+}
+
+.award h4 {
+    font-weight: 100;
 }
