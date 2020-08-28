@@ -22,3 +22,8 @@
 .award h4 {
     font-weight: 100;
 }
+
+#email-subscription-form {
+    max-width: 40rem;
+    margin: auto;
+}
