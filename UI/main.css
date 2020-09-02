@@ -26,3 +26,8 @@
     max-width: 40rem;
     margin: 2rem auto;
 }
+
+.social a img {
+    max-width: 1.5rem;
+    max-height: 1.5rem;
+}
