@@ -5,6 +5,7 @@
 */
 
 /* variables */
+/* You can change the colors and put your own */
 :root {
     --color-primary: #2699fb;
     --color-secondary: #396dd5;
@@ -19,6 +20,7 @@
     background-color: var(--black);
 }
 
+/* secondary black */
 .black-secondary {
     background-color: var(--black-secondary);
 }
