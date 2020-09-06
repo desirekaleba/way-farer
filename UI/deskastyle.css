@@ -31,6 +31,7 @@
 }
 
 /* buttons */
+/* primary button */
 .button {
     display: inline-flex;
     padding: 0.7rem;
