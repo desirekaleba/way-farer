@@ -68,6 +68,7 @@
     background-color: var(--color-primary);
 }
 
+/* secondary color */
 .bg-secondary {
     background-color: var(--color-secondary);
 }
