@@ -78,10 +78,12 @@
     background-color: var(--black);
 }
 
+/* primary color */
 .clr-primary {
     color: var(--color-primary);
 }
 
+/* secondary color */
 .clr-secondary {
     color: var(--color-secondary);
 }
