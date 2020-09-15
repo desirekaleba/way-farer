@@ -116,10 +116,12 @@ a:hover {
 /* Accordion */
 .accordion {}
 
+/* accordion item */
 .accordion-item {
     position: relative;
 }
 
+/* accordion title */
 .accordion-title {
     text-indent: 1rem;
     background-color: var(--color-secondary);
