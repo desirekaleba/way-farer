@@ -131,6 +131,7 @@ a:hover {
     cursor: pointer;
 }
 
+/* when accordion title is clicked */
 .accordion-title-active::before {
     content: '';
     position: absolute;
