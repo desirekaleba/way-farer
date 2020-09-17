@@ -145,16 +145,19 @@ a:hover {
     transform: rotate(45deg);
 }
 
+/* accordion body */
 .accordion-body {
     display: none;
 }
 
+/* when an accordion body is clicked */
 .accordion-body.active {
     color: white;
     display: block;
     transition: all 1s ease-in-out;
 }
 
+/* accordion body button */
 .accordion-body button {
     border: none;
     width: 100%;
