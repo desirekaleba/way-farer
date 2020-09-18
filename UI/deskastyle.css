@@ -166,6 +166,7 @@ a:hover {
 }
 
 /* inputs, selects, and textarea */
+/* apply to all listed above */
 input[type="text"],
 input[type="email"],
 input[type="number"],
