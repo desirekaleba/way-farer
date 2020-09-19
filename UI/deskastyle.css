@@ -188,6 +188,7 @@ textarea {
     border: 1px solid #ccc;
 }
 
+/* input with type submit */
 input[type="submit"] {
     padding: 0.4rem;
     display: inline-flex;
