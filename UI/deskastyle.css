@@ -209,14 +209,18 @@ input[type="submit"] {
     padding: 0 4rem;
 }
 
+/* specifically for headers */
 .wrapper-head {
+
     padding: 2rem 4rem;
 }
 
+/* medium wrapper */
 .wrapper-md {
     padding: 0 2rem;
 }
 
+/* small wrapper */
 .wrapper-sm {
     padding: 0 1rem;
 }
