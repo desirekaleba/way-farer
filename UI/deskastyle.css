@@ -226,7 +226,6 @@ input[type="submit"] {
 }
 
 /* Flex display */
-/* row */
 .flex {
     display: -webkit-box;
     display: -moz-box;
@@ -238,6 +237,7 @@ input[type="submit"] {
     overflow-x: hidden;
 }
 
+/* display in row */
 .flex-row {
     display: -webkit-box;
     display: -moz-box;
