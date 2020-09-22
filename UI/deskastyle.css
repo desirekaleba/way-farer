@@ -296,6 +296,7 @@ input[type="submit"] {
     overflow-x: hidden;
 }
 
+/* wrap when does not fit */
 .wrap {
     flex-wrap: wrap;
     -ms-flex-wrap: wrap;
