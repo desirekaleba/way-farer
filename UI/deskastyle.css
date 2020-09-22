@@ -282,6 +282,7 @@ input[type="submit"] {
 }
 
 /* column */
+/* display column */
 .flex-col {
     display: -webkit-box;
     display: -moz-box;
