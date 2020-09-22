@@ -302,6 +302,7 @@ input[type="submit"] {
     -ms-flex-wrap: wrap;
 }
 
+/* no wrap does not wrap even if there is no more space */
 .no-wrap {
     flex-wrap: nowrap;
     -ms-flex-wrap: nowrap;
