@@ -320,15 +320,18 @@ input[type="submit"] {
 }
 
 /* alignment */
+/* align items center */
 .a-center {
     align-items: center;
 }
 
+/* justify items center */
 .j-center {
     justify-items: center;
 }
 
 /* Flex alignment */
+/* center items */
 .center {
     justify-content: center;
     align-items: center;
