@@ -101,13 +101,13 @@ a:hover {
 }
 
 /* Accordion */
-.accordion {
-    
-}
+.accordion {}
+
 .accordion-item {
     position: relative;
 }
-.accordion-title{
+
+.accordion-title {
     text-indent: 1rem;
     background-color: var(--color-secondary);
     padding: 0 3px 0 0;
@@ -115,6 +115,7 @@ a:hover {
     position: relative;
     cursor: pointer;
 }
+
 .accordion-title-active::before {
     content: '';
     position: absolute;
@@ -127,20 +128,24 @@ a:hover {
     display: block;
     transform: rotate(45deg);
 }
+
 .accordion-body {
     display: none;
 }
+
 .accordion-body.active {
     color: white;
     display: block;
     transition: all 1s ease-in-out;
 }
+
 .accordion-body button {
     border: none;
     width: 100%;
     font-weight: 600;
     cursor: pointer;
 }
+
 /* inputs, selects, and textarea */
 input[type="text"],
 input[type="email"],
@@ -183,6 +188,10 @@ input[type="submit"] {
     padding: 0 4rem;
 }
 
+.wrapper-head {
+    padding: 2rem 4rem;
+}
+
 .wrapper-md {
     padding: 0 2rem;
 }
@@ -221,9 +230,11 @@ input[type="submit"] {
 .flex-1 {
     flex: 1;
 }
+
 .flex-1-100 {
     flex: 1 100%;
 }
+
 .flex-2 {
     flex: 2;
 }
@@ -236,9 +247,11 @@ input[type="submit"] {
 .grow-1 {
     flex-grow: 1;
 }
+
 .grow-2 {
     flex-grow: 2;
 }
+
 .grow-3 {
     flex-grow: 3;
 }
@@ -551,12 +564,15 @@ input[type="submit"] {
 .fz-1 {
     font-size: 1rem;
 }
+
 .fz-2 {
     font-size: 2rem;
 }
+
 .fz-3 {
     font-size: 3rem;
 }
+
 .fz-4 {
     font-size: 4rem;
 }

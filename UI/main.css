@@ -1,7 +1,33 @@
 #awards {
-    background-image: url('./img/awards-bg.jpg');
-    background-repeat: no-repeat;
+    background-color: #ccc;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+
+}
+
+.award img {
+    max-width: 3rem;
+    height: 3rem;
+}
+
+.award>h3 {
+    font-size: 2rem;
+    position: relative;
+}
+
+.award h4 {
+    font-weight: 100;
+    position: absolute;
+
+}
+
+#email-subscription-form {
+    max-width: 40rem;
+    margin: 2rem auto;
+}
+
+.social a img {
+    max-width: 1.5rem;
+    max-height: 1.5rem;
 }
